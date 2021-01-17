@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galeria wspomnień - Granada</title>  
+    <meta charset="utf-8">
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".miniatury").click(function(){
+            $(".miniatury").css("width","220px")
+            $(".miniatury").css("height","200px")
+            $(this).css("width","500px");
+            $(this).css("height","420px");
+            
+        });
+    });
+    </script>
+    <style>
+        img{
+            float: right;        
+        }
+        div.miniatury{
+            margin: 9px;
+            border: 1px solid #508084;
+            border-radius: 3px;
+            float:left;
+            width: 250px;
+            height: 220px;
+            background-color: #fff;
+        }
+        div.miniatury img{
+            width: 100%;
+            height: 80%;
+        }
+        div.podpisy{
+            padding: 8px;
+            text-align:center;
+            font-family:'Arial';
+        }
+        body{
+            background-color:rgba(139, 196, 201, 0.13);
+            margin-left: 200px;
+            margin-right: 200px;
+                }
+    </style>
+</head>
+<body>
+    <img src="Vendors/blog.png">
+    <div class="miniatury">
+        <img src="Vendors/Granda/widok%20na%20miasto.jpg">
+        <div class="podpisy">Granada - widok na miasto</div>
+    </div>
+    <div class="miniatury">
+        <img src="Vendors/Granda/Granada%20noc%C4%85.JPG">
+        <div class="podpisy">Granada - widok noca</div>
+    </div>
+    <div class="miniatury">
+        <img src="Vendors/Granda/katedra.JPG">
+        <div class="podpisy">Granada - Katedra </div>
+    </div>
+  
+    <div class="miniatury">
+        <img src="Vendors/Granda/klimatyczne%20domy.JPG">
+        <div class="podpisy">Granada - klimatyczne domy</div>
+    </div>
+    <div class="miniatury">
+        <img src="Vendors/Granda/park%20w%20Granadzie.JPG">
+        <div class="podpisy">Granada - park</div>
+    </div>
+   
+</body>
+</html>
