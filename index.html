@@ -3,7 +3,14 @@
 	<head>
         <title>Podróże małe i duże - Katarzyna Szyja</title>
         <meta charset="UTF-8">
-        <style>
+        <script>
+        function rozwijaj()
+            {
+            document.getElementById("p1").innerHTML="Granada to pod kątem turystyki to jedno z najpopularniejszych miast w regionie Andaluzji, każdego roku odwiedzana jest przez miliony turystów z całego świata. Rozciąga się wzdłuż rzeki Genil, tuż u stóp pasma górskiego Sierra Nevada. Ta malowniczo położona miejscowość słynie przede wszystkim z pięknej architektury i znakomicie zachowanych zabytków, które zapierają dech w piersiach. Jaki jest główny powód intzaeresowania tym hiszpańskim miastem? Odpowiedź nasuwa się od razu. Pałac Alhambra. Bez wątpienia jest jednym z bardziej rozpoznawalnych zabytków Hiszpanii, który zachwyca wspaniałą architekturą, zdobieniami i ogrodami,to najpiękniejszy kompleks pałacowo-zamkowy z czasów dominacji muzułmańskiej, jaki kiedykolwiek powstał w Europie. Na zwiedzenie go można poświęcić kilka godzin lub cały dzień. Druga opcja pozwala w pełni zagłębić się w bogactwo architektoniczne tego miejsca, niezwykłą ornamentykę oraz pełne bujnej roślinności ogrody Generalife. Jednak Granada nie zaczyna się i nie kończy na Alhambrze. Będąc w mieście koniecznie przespaceruj się po starówce, odwiedź arabską dzielnicę Albaicin oraz Sacromonte z jaskiniami, w których odbywają się pokazy flamenco.";
+        }
+        
+        </script>
+        <style> 
             h1{
                 color: #fff;
                 background-color: rgba(32, 149, 159, 0.63);
@@ -11,57 +18,53 @@
                 font-weight: 100;
                 font-family: sans-serif;
                 font-size: 18px;
-               
-        
-                }
+              }
             body{
                 margin-left: 200px;
                 margin-right: 200px;
                 background-color: #fff;
                 font-family: 'Lato','Arial', sans-serif;
-                font-size: 12px;
+                font-size: 15px;
                 text-align: justify;
-                
-               
+                line-height: 180%;
                 }
             article{
-                height: 220px;
-            }
+                height:auto;
+                }
             p img{
                 width: 200px;
                 height: 160px;
                 float: left;
                 margin-right: 20px;
-            }
+                }
             img{
-                width: 300px;
+                width: 400px;
                 height: 300px;
-            }
+                }
             footer{
                 text-align: center;
                 background-color: rgba(32, 149, 159, 0.14);
-            }
+                }
         </style>
     
     </head>
     <body>
+        
         <main>
             <section>
             <img src="Vendors/blog.png">
                 <article>
                     <h1>Kierunek: Hiszpania<br>Miejscowość: Granada</h1>
-                    
-                    <p><img src="Vendors/foto1.JPG">Granada to pod kątem turystyki jedno z najpopularniejszych miast w regionie Andaluzji. Rozciąga się wzdłuż rzeki Genil, tuż u stóp pasma górskiego Sierra Nevada. Ta malowniczo położona miejscowość słynie przede wszystkim z pięknej architektury i znakomicie zachowanych zabytków, które zapierają dech w piersiach. Co można powiedzieć o najbardziej znanym zabytku Granady i jednym z najpopularniejszych w całej Hiszpanii? Z pewnością to, że bez względu na wszystko trzeba go odwiedzić! Alhambra to najpiękniejszy kompleks pałacowo-zamkowy z czasów dominacji muzułmańskiej, jaki kiedykolwiek powstał w Europie. Na zwiedzenie go można poświęcić kilka godzin lub cały dzień. Druga opcja pozwala w pełni zagłębić się bogactwo architektoniczne tego miejsca, niezwykłą ornamentykę oraz pełne bujnej roślinności ogrody Generalife.</p>
+                    <p id="p1"><img src="Vendors/foto1.JPG">Granada to pod kątem turystyki to jedno z najpopularniejszych miast w regionie Andaluzji, każdego roku odwiedzana jest przez miliony turystów z całego świata. Rozciąga się wzdłuż rzeki Genil, tuż u stóp pasma górskiego Sierra Nevada. Ta malowniczo położona miejscowość słynie przede wszystkim z pięknej architektury i znakomicie zachowanych zabytków, które zapierają dech w piersiach. Jaki jest główny powód intzaeresowania tym hiszpańskim miastem? Odpowiedź nasuwa się od razu. Pałac Alhambra. Bez wątpienia jest jednym z bardziej rozpoznawalnych zabytków Hiszpanii, który zachwyca wspaniałą architekturą, zdobieniami i ogrodami,to najpiękniejszy kompleks pałacowo-zamkowy z czasów dominacji muzułmańskiej, jaki kiedykolwiek powstał w Europie. Na zwiedzenie go można poświęcić kilka godzin lub cały dzień. Druga opcja pozwala w pełni zagłębić się w bogactwo architektoniczne tego miejsca,<button onclick="rozwijaj()">Więcej</button></p> 
                 </article>
                 
                 <article>
                     <h1>Pierwsze wrażenia</h1>
                     <p><img src="Vendors/foto3.jpg"> Wysiadając z samolotu jako pierwsze w Hiszpani czuje się mocno wilgotne i gorace powietrze. Nim organizm się przyzwyczai mija kilka minut, potem już jest tylko lepiej. Przemierzając drogę z lotniska w Maladze do Granady autokar mknie między górami, roztaczając przed naimi piekne widoki sadów oliwkowych. Zadziwiające jest to jak równą sa one posadzone nawet jeśli teren jest nierówny. Gdy docieramy do celu Granada wbudza we mnie bardzo miłe uczucia, czuję sie tam bezpiecznie, wśród zieleni, pięknie kwitnacych kwiatów. Uliczki sa wąskie, ale klimatyczne, lujdzie pędza ale jakby wolniej, usmiechają się, śpiewają, tańczą na ulicach. Wszystko zależy od pory dnia, ale w Granadzie mam poczucie jakby świat był piękniejszy i radośniejszy. Pięknie podciete palmy szumia na wietrze, mandarynki spadają z drzew, ptaki spiewaja, kwiaty pachną...  </p>
                 </article>
-            </section>
-                <aside>
-                    <title>Katarzyna Szyja</title>
-                </aside>
+        
+                 </section>
+               
         </main>
     </body>
     <footer>2021, Katarzyna Szyja</footer>
